@@ -1,7 +1,5 @@
 # Getting Started with Create React App
 
-This project is deployed on(https://netflixgpt-2da66.web.app/)
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
