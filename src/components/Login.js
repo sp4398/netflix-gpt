@@ -82,7 +82,7 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className="absolute w-screen">
+      <div className="absolute w-screen ">
         <img className="h-screen object-cover md:w-screen" src={BG_URL} alt="bgImage" />
       </div>
       <form
