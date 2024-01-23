@@ -1,13 +1,15 @@
 import React from 'react'
+import { FaPlay } from "react-icons/fa";
+import { GiInfo } from "react-icons/gi";
 
 const VideoTitle = ({title,overview}) => {
   return (
-    <div className="w-screen aspect-video pt-[15%] px-6 md:px-24 absolute text-white bg-gradient-to-r from-black">
-      <h1 className="text-xl md:text-4xl font-bold">{title}</h1>
-      <p className="hidden md:inline-block py-6 text-lg w-1/3">{overview}</p>
-      <div className='my-4 md:m-0'>
-        <button className="bg-white text-black py-1 md:py-4 px-3 md:px-12 text-xl rounded-lg hover:bg-opacity-80"> Play</button>
-        <button className="hidden md:inline-block mx-2 bg-gray-500 text-white p-4 px-12 text-xl hover:bg-opacity-50 rounded-lg">More Info</button>
+    <div className=" absolute top-0 md:pt-64 pt-56 md:pl-24 pl-11 bg-gradient-to-r from-black text-white w-screen aspect-video">
+      <h1 className="text-2xl md:text-6xl pb-3 font-bold">{title}</h1>
+      <p className="md:text-lg md:w-1/2 md:pb-3 hidden md:inline-block">{overview}</p>
+      <div className='flex gap-2'>
+        <button className="bg-white text-black md:p-2 md:px-6 p-1 px-3 rounded flex items-center gap-2 hover:bg-opacity-65"> <FaPlay/>Play</button>
+        <button className="bg-gray-500 md:p-2 md:px-6 p-1 px-3 rounded bg-opacity-40 flex items-center gap-2"><GiInfo/>More Info</button>
       </div>
     </div>
   )
