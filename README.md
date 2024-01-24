@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+- Deployed on [Link](https://netflixgpt19.netlify.app/)
+
 - Create React App
 - Configured TailwindCSS
 - Header
